@@ -33,3 +33,9 @@
 @media(max-width:740px){
   .spotlight-card:nth-child(2)>img{height:390px;padding:10px}
 }
+
+@media(max-width:370px){
+  .nav{gap:12px}
+  .nav nav{gap:6px}
+  .nav nav a{font-size:10px;letter-spacing:-.3px}
+}
