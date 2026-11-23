@@ -39,3 +39,17 @@
   .nav nav{gap:6px}
   .nav nav a{font-size:10px;letter-spacing:-.3px}
 }
+
+
+/* Patents & intellectual property */
+.ip-section{background:#0e1828}
+.ip-panel{display:grid;grid-template-columns:1.2fr 1fr;gap:60px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:38px 0}
+.ip-tag{font-size:10px;font-weight:800;letter-spacing:.16em;line-height:1.5;color:#90bca8;margin-bottom:16px}
+.ip-summary{font-size:18px;line-height:1.75;color:#d6e4df;margin-bottom:0}
+.ip-note{font-size:11px;line-height:1.7;color:#8494a6;margin:20px 0 0}
+.ip-areas{list-style:none;margin:0;padding:0;border-top:1px solid #334153}
+.ip-areas li{border-bottom:1px solid #334153;padding:17px 0;font-size:15px;font-weight:700;line-height:1.5}
+.inline-link{border-bottom:1px solid #5f8576;color:#d6e4df}
+.inline-link:hover{color:var(--accent)}
+@media(max-width:850px){.ip-panel{grid-template-columns:1fr;gap:34px}}
+@media(max-width:620px){.ip-panel{padding:28px 0}.ip-summary{font-size:16px}}
